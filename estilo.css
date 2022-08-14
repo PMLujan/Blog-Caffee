@@ -248,3 +248,42 @@ h4{
 .blog__img{
     width: 100%;
 }
+/**Pagina contacto**/
+.titulo-contacto{
+    text-align: center;
+}
+.img-bg{
+    background-image: url(img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 5px;
+}
+@media(max-width:400px){
+    .formulario{
+        width: 100%;
+    }
+}
+.campos{
+    display: flex;
+}
+.campos__label{
+    flex: 0 0 9rem;
+    font-weight: bold;
+}
+.campos__input{
+    flex: 1;
+    margin-bottom: 2rem;
+    border: 2px solid var(--gris);
+    border-radius: 5px;
+    outline: none;
+}
+.campos__input--textarea{
+    padding: 5rem;
+}
