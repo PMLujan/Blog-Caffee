@@ -20,9 +20,11 @@ body{
 }
 /* Globales */
 .contenedor{
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%,120rem);
     margin: 0 auto;
+}
+img{
+    width: 100vh;
 }
 a{
     text-decoration: none;
@@ -197,5 +199,25 @@ h4{
     .footer__enlaces-a{
         display:block;
         font-weight: bold;
+    }
+}
+/**Pagina Nosotros**/
+@media (max-width:768px){
+    .img-nosotros{
+        width: 100%;
+    }
+}
+.titulo-nosotros{
+    text-align: center;
+}
+@media(min-width:769px){
+    .contenedor-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+        margin-bottom: 4rem;
+    }
+    .img-nosotros{
+        width: 100%;
     }
 }
