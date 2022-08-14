@@ -221,3 +221,23 @@ h4{
         width: 100%;
     }
 }
+/**Pagina cursos**/
+.img-cursos{
+    width: 100%;
+}
+@media(min-width:769px){
+    .grid-cursos{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+.cursos-titulo{
+    text-align: center;
+}
+.curso__precio{
+    font-weight: bold;
+}
+.class__precio-span{
+    font-weight: normal;
+}
