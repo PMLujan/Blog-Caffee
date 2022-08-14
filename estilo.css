@@ -241,3 +241,10 @@ h4{
 .class__precio-span{
     font-weight: normal;
 }
+/**Entrada blog**/
+.titulo-blog {
+    text-align: center;
+}
+.blog__img{
+    width: 100%;
+}
