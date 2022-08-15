@@ -265,11 +265,6 @@ h4{
     padding: 2rem;
     border-radius: 5px;
 }
-@media(max-width:400px){
-    .formulario{
-        width: 100%;
-    }
-}
 .campos{
     display: flex;
 }
@@ -283,7 +278,9 @@ h4{
     border: 2px solid var(--gris);
     border-radius: 5px;
     outline: none;
+    width: 100%;
 }
 .campos__input--textarea{
     padding: 5rem;
+    width: 100%;
 }
