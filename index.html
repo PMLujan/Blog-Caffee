@@ -16,7 +16,7 @@
         <div class="contenedor">
             <div class="barra">
                       <a class="logo" href="index.html">
-                          <h1 class="logo__nombre no-margin"       >Blog<span class="logo__bold">DeCafe</span></h1>
+                          <h1 class="logo__nombre no-margin" >Blog<span class="logo__bold">DeCafe</span></h1>
                       </a>
                  <nav class="navegacion">
                        <a href="nosotros.html" class="navegacion__enlaces">Nosotros</a>
@@ -36,7 +36,11 @@
                <div>
                    <article class="entrada" >
                        <div>
-                         <img class="blog-img" src="img/blog1.jpg" alt="Imagen Blog">
+                        <picture>
+                            <source loading="lazy"  class="blog-img" srcset="img/blog1.webp" type="image/webp">
+                            <img  loading="lazy" class="blog-img" src="img/blog1.jpg" alt="Imagen 
+                                Blog">
+                        </picture>       
                         </div>
                         <div>
                             <h3>Tipos de grano de Cafe</h3>
@@ -47,7 +51,11 @@
 
                    <article class="entrada" >
                     <div>
-                      <img class="blog-img" src="img/blog2.jpg" alt="Imagen Blog">
+                        <picture>
+                            <source loading="lazy"  class="blog-img" srcset="img/blog2.webp" type="image/webp">
+                            <img  loading="lazy" class="blog-img" src="img/blog2.jpg" alt="Imagen 
+                                Blog">
+                        </picture>      
                      </div>
                      <div>
                          <h3>Tres deliciosas recetas de cafe</h3>
@@ -58,7 +66,11 @@
 
                 <article class="entrada">
                     <div>
-                      <img class="blog-img" src="img/blog3.jpg" alt="Imagen Blog">
+                        <picture>
+                            <source loading="lazy"  class="blog-img" srcset="img/blog3.webp" type="image/webp">
+                            <img  loading="lazy" class="blog-img" src="img/blog3.jpg" alt="Imagen 
+                                Blog">
+                        </picture>   
                      </div>
                      <div>
                          <h3>Beneficios del cafe</h3>
@@ -96,6 +108,6 @@
             <a class="footer__enlaces-a" href="nosotros.html">Contacto</a>
         </div>
     </footer>
-    
+    <script src="js/modernizr.js"></script>
 </body>
 </html>
